@@ -1,0 +1,13 @@
+.venv
+.vscode
+**/__pycache__
+.idea/dbnavigator.xml
+.idea/happiu-insights.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.coverage
+.scannerwork
+storages
+*.env

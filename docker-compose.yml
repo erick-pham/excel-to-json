@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  excel-to-json:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "excel_to_json_parser"
+    ports:
+    - 5005:5005
+    # - 8080:8080
+    volumes:
+    - .:/app
